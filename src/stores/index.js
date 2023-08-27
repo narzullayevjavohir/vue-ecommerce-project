@@ -44,7 +44,9 @@ export const useShoppingStore = defineStore("shopping", () => {
     }
   }
 
-  const totalItems = computed(() => carts.length);
+  const totalItems = computed(() =>
+    carts.reduce((total, item) => total + item.quantity, 0)
+  );
 
   const totalPrices = computed(() =>
     carts.reduce((total, item) => total + item.price, 0)
