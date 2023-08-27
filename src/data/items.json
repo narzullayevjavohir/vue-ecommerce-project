@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Olma",
+    "imgUrl": "/olma.jpg",
+    "price": 3000
+  },
+  {
+    "id": 2,
+    "title": "Olcha",
+    "imgUrl": "/olcha.jpg",
+    "price": 7000
+  },
+  {
+    "id": 3,
+    "title": "Uzum",
+    "imgUrl": "/uzum.jpg",
+    "price": 9000
+  },
+  {
+    "id": 4,
+    "title": "O'rik",
+    "imgUrl": "/o'rik.jpg",
+    "price": 5000
+  }
+]
